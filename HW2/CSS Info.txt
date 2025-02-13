@@ -1,0 +1,9 @@
+I've centered all the text for a more symmetrical look to the page.
+
+I've made both of the headers bigger than they were and changed the font to be more bold to emphasize that they are the main points of the page.
+
+The text below both of the headers I've made a little bigger than previously for easy readability, also changed the font as well for easier readability as well.
+
+I kept the table including all of the games and info white in order to distinguish it from the background for the rest of the page. I've also widened the borders of the table as well as changed the font of the table headers to emphasize that those are the topics of the table.
+
+I've changed the sizes and shapes of the images to better match the actual pictures rather than having them stretched out.

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+#thead{
+	color: black;
+	font-family: Anton;
+}
+
+.table{
+	background-color: black;
+}
+
+* {
+	text-align: center;
+	background-color: #f59884;
+}
+
+h1, h2 {
+	font-family: Bebas Neue;
+	color: darkblue;
+	text-decoration: underline;
+	font-size: 65px;
+}
+
+p {
+	font-size: 30px;
+	color: #006996;
+}
+
+p, table {
+	font-family: Titillium Web;
+}
+
+table, tr, th, tbody, td {
+	background-color: white;
+}
