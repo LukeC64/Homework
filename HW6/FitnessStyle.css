@@ -1,0 +1,21 @@
+* {
+	text-align: center;
+}
+
+.image-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-row img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .image-row {
+    flex-direction: column;
+  }
+}
