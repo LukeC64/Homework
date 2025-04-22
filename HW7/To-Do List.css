@@ -1,0 +1,25 @@
+/* Style for webpage */
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+li {
+  margin-top: 1rem;
+}
+
+/* Style for completed tasks */
+.completed {
+  text-decoration: line-through;
+  color: green;
+}
