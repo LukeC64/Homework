@@ -1,0 +1,101 @@
+/* Basic CSS for Luke's Portfolio */
+.profile-pic {
+  max-width: 100%;            /* responsive design */
+  height: auto;            /* preserves aspect ratio */
+  border-radius: 50%;      /* makes it circular if it's a square image */
+  border: 3px solid #00a2ff;  /* adds a dark border */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* soft shadow */
+  object-fit: cover;       /* trims and fills container if needed */
+}
+
+body {
+    font-family: Cal Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+  }
+
+  header {
+    background-color: #00a2ff;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  nav h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #hero {
+    font-family: Alfa Slab One, serif;
+    background-color: #fefefe;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .project {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  .future-projects {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  h3 {
+    font-family: Bebas Neue, sans-serif;
+    color: #0d3b66;
+  }
+  
+  footer {
+    font-family: Bebas Neue, sans-serif;
+    background-color: #0d3b66;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  a {
+    color: #0d3b66;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
